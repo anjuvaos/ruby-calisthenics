@@ -11,8 +11,6 @@ module FunWithStrings
     return cont_words
   end
   def anagram_groups
-    #arr=[]
-    #return arr if self.empty?
     words=self.split(" ")
     result = {}
     words.each{ |word|
@@ -24,7 +22,7 @@ module FunWithStrings
        end
     }   
     arr=result.values
-    return arr
+    
   end
 end
 # make all the above functions available as instance methods on Strings:
